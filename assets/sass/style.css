@@ -3,6 +3,19 @@
 /*font-family*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: hsl(30deg, 38%, 92%);
+}
+
+.product_container {
+  height: 600px;
+  width: 450px;
+  background-color: hsl(0deg, 0%, 100%);
+  position: relative;
 }/*# sourceMappingURL=style.css.map */
