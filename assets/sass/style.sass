@@ -13,11 +13,11 @@ $White: hsl(0, 0%, 100%)
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap')
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap')
 
-@mixin prop ($height, $width, $bg, $pos) 
+@mixin prop ($height, $width, $bg) 
     height: $height
     width: $width
     background-color: $bg
-    position: $pos
+   
 
 
 *
@@ -29,5 +29,12 @@ body
   background-color: $Cream 
 
 .product_container
-  @include prop(600px, 450px, $White, relative)
+  @include prop(300px, 500px, $White)
+  display: flex
+  margin: 150px auto 100px auto
+  justify-content: center
+  align-items: center
+ 
+
+
 
