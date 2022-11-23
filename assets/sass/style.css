@@ -25,7 +25,7 @@ body {
 }
 
 .product_img img {
-  width: 100%;
+  width: 90%;
   height: 320px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
@@ -38,10 +38,20 @@ body {
 
 .content_container {
   width: 249px;
-  hight: 320px;
+  height: 320px;
   float: right;
 }
 
-.content_container a {
-  background: green;
+.button {
+  background: hsl(158deg, 36%, 37%);
+  padding: 12px 65px;
+  margin-left: 5px;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  color: hsl(0deg, 0%, 100%);
+  border-radius: 10px;
+}
+
+.button i {
+  padding: 5px;
 }/*# sourceMappingURL=style.css.map */

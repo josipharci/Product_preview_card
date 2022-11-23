@@ -8,6 +8,7 @@ $Cream: hsl(30, 38%, 92%)
 $Very_dark_blue: hsl(212, 21%, 14%)
 $Dark_grayish_blue: hsl(228, 12%, 48%)
 $White: hsl(0, 0%, 100%)
+$bt_price: hsl(158, 36%, 37%)
 
 /*font-family*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap')
@@ -38,7 +39,7 @@ body
   
  
 .product_img img  
-  width:100%
+  width:90%
   height:320px
   border-top-left-radius: 10px
   border-bottom-left-radius: 10px
@@ -49,9 +50,20 @@ body
 
 .content_container
  width:249px
- hight:320px
+ height:320px
  float: right
 
-.content_container a 
- background: green
+.button
+ background: $bt_price
+ padding: 12px 65px
+ margin-left: 5px
+ text-decoration-line: none
+ color:$White
+ border-radius:10px
+
+.button i
+ padding: 5px
+ 
+
+
 
